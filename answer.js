@@ -9,8 +9,7 @@ function matchNumber(N) {
             let fib3 = fib1 + fib2;
             fib2 = fib1;
             fib1 = fib3;
-            let result = fib3;
-    }
+        }
     }
     console.log (`${fib1} in number ${N} in the Fibonacci sequence`);
 }
